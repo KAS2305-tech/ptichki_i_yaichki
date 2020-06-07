@@ -1,0 +1,22 @@
+@import url(./vendor/normalize.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/main/main.css);
+@import url(./blocks/section-title/section__title.css);
+@import url(./blocks/section__subtitle/section__subtitle.css);
+@import url(./blocks/title/title.css);
+@import url(./blocks/health/health.css);
+@import url(./blocks/about/about.css);
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/paragraph/paragraph.css);
+@import url(./blocks/photo-grid/photo-grid.css);
+@import url(./blocks/contact_new/contact_new.css);
+body {
+    background: #f4f5f7;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.opacity {
+}

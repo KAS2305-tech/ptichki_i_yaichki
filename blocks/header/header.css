@@ -1,0 +1,105 @@
+header {
+    max-width: 160px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    background: #5fb709;
+    justify-content: flex-start;
+    margin: 30px auto;
+    margin-right: 0;
+    position:sticky; 
+    top:0;
+    right: 0;
+    z-index: 2;
+    justify-self: flex-end;
+
+    /*дополнительный стиль*/
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.5s;
+}
+.header:hover .menu {
+    transform: scale(0.90);
+    transition: transform 0.5s;
+}
+.header:hover {    
+    box-shadow: 6px 6px 10px -1px #5fb709,
+                -6px -6px 10px -1px #5fb709;
+}
+
+.header__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 18px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #484848;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 10px;
+
+
+    display: flex;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 1px solid rgba(0,0,0,0);
+    transition: transform 0.5s;
+}
+.header__item:hover {
+    transform: scale(0.90);
+    transition: transform 0.5s;
+    color: #5fb709;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+
+.menu {
+    display: flex;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #f4f5f7;
+    text-align: start;
+    padding: 10px;
+
+    
+}
+.menu:hover .header{
+    max-width: 300px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+    
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.header:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {/*дополнительный стиль*/
+    display: flex;
+    background: #f4f5f7;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 1px solid rgba(0,0,0,0);
+    transition: transform 0.5s;
+}

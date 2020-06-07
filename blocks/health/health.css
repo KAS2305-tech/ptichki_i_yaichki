@@ -1,0 +1,27 @@
+.health {
+    max-width: 1184px;
+    width: 100%;
+    margin: 50px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 200px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+}
+
+.health__image {
+    max-width: 400px;
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
+.health__image_eggs {
+    max-width: 400px;
+    position: absolute;
+    top: 40%;
+    right: 0;
+}

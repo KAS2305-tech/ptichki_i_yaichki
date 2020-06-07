@@ -1,0 +1,16 @@
+.title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 40px;
+    line-height: 42px;
+    font-family: Edo SZ HQ;
+    color: #484848;
+    z-index: 2;
+}
